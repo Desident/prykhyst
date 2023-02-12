@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "pryhyst",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

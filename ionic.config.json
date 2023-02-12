@@ -1,0 +1,8 @@
+{
+  "name": "pryhyst",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "id": "e9cad37d"
+}
