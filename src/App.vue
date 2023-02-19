@@ -66,17 +66,24 @@ import {
 const selectedIndex = ref(0);
 const appPages = [
   {
-    title: 'ЗНАЙТИ ПРИХИСТОК',
+    title: 'Inbox',
     url: '/folder/Inbox',
     iosIcon: mailOutline,
     mdIcon: mailSharp,
   },
   {
-    title: 'НАДАТИ ПРИХИСТОК',
+    title: 'Outbox',
     url: '/folder/Outbox',
     iosIcon: paperPlaneOutline,
     mdIcon: paperPlaneSharp,
   },
+  {
+    title: 'Favorites',
+    url: '/folder/Favorites',
+    iosIcon: heartOutline,
+    mdIcon: heartSharp,
+  },
+
 ];
 const labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
